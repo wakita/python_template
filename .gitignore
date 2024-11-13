@@ -1,0 +1,6 @@
+.vscode
+log/*
+notebooks/test-*.ipynb
+out/*
+.env
+.sync.ffs_db
