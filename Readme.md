@@ -59,3 +59,11 @@ PermissionError: [Errno 1] Operation not permitted: '/proc/1/stat'
 # Python code を Jupyter Notebook に `import ...` する方法
 
 `notebooks/initialize/__init__.py` を用意し、`test.ipynb` のようにノートブックの先頭に `import initialize` しておけば、`src/` の下のモジュールを普通に `import` できるようになる。
+
+# `vscode-open` by sandcastle は便利
+
+この VSCode extention をいれると、Explorer のファイルを右クリックして `Open with default application` すると、外部のアプリケーションでそのファイルを開くことができる。たとえば：
+
+- `tsubame4.ffs_gui` で FreeFileSync を開く。
+- `out/spi.csv` で Numbers を開く。
+- `data/SPI2011-2023.xlsx` で Excel を開く。
