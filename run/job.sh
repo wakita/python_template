@@ -31,6 +31,9 @@ if [ -f $VENV_PATH/bin/activate ]; then
     source $VENV_PATH/bin/activate
     # --output オプションをつけると、ノートブックの出力をファイルに保存できる。このオプションがない場合は、jupyter execute の実行結果のノートブックはどこにも保存されない。
     jupyter execute --output="{notebook_name}-$JOB_ID" notebooks/test.ipynb
+
+    # ノートブックでなく、Python スクリプトを実行する場合は以下のようにする。
+    # python3 src/test.py
 else
     echo "$VENV_PATH に仮想機械が見つかりません。"
 fi
