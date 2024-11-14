@@ -26,6 +26,7 @@
             <Item>*/.Spotlight-V100/</Item>
             <Item>*/.TemporaryItems/</Item>
             <Item>*/.Trashes/</Item>
+            <Item>.git/*</Item>
             <Item>etc/*.ffs_gui</Item>
         </Exclude>
         <SizeMin Unit="None">0</SizeMin>
